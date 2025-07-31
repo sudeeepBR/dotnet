@@ -1,0 +1,70 @@
+.view-place-container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.view-place-container h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.place-list {
+  list-style: none;
+  padding: 0;
+}
+
+.place-card {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.place-card p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #555;
+}
+
+.place-card button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.place-card button:first-of-type {
+  background-color: #007bff;
+  color: white;
+}
+
+.place-card button:first-of-type:hover {
+  background-color: #0056b3;
+}
+
+.place-card .delete-button {
+  background-color: #dc3545;
+  color: white;
+}
+
+.place-card .delete-button:hover {
+  background-color: #c82333;
+}
+
+.no-places {
+  font-size: 18px;
+  color: #555;
+  text-align: center;
+  margin-top: 20px;
+}
